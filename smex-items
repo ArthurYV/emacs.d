@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ company-complete
+ list-packages
+ multi-term-dedicated-open
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (multi-term-dedicated-open . 1)
+ (list-packages . 2)
+ (company-complete . 4)
+)
