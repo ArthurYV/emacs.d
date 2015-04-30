@@ -8,29 +8,34 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/huifengshuma/.emacs.d/"
  "/Users/huifengshuma/Documents/org-doc/"
  "/Users/huifengshuma/Documents/My-wiki-baby/source/_posts/"
+ "/Users/huifengshuma/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ ".emacs"
+ "Thinking.md"
+ "Task.md"
  "init.el"
  "test.c"
  "Vim.md"
- "Task.md"
- "Thinking.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/huifengshuma/.emacs.d/" (21826 5005 0 0) "snippets/" "site-lisp/" "recentf" "misc/" "lisp/" "init.el" "ido.last" "history" "elpa/" "auto-save-list/" ".smex-items" ".session" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
+ ("/Users/huifengshuma/Documents/org-doc/" (21826 26142 0 0) "高等数学.org" "离散数学.org" "xyguo/" "ToDo.org~" "ToDo.org_archive" "ToDo.org" "test.c" "redguardtoo/" "README.md~" "README.md" "Purcell/" "LaTex.org~" "LaTex.org" ".git/" ".emacs" ".DS_Store" ".#test.c" "#test.c#" "../" "./")
 
- ("/Users/huifengshuma/" (21826 5005 0 0) "WebstormProjects/" "VirtualBox VMs/" "Vagrantfile/" "solarized/" "PycharmProjects/" "Public/" "Project/" "Pictures/" "octopress/" "nodejs/" "node_modules/" "MyPythonModel/" "Music/" "Movies/" "Library/" "JavaProject/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" "ACM程序/" ".zshrc~" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-huifengshuma的MacBook Pro-5.0.5" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".ShadowsocksX/" ".rvm/" ".rnd" ".rest-client/" ".qrsbox/" ".python_history" ".python-eggs/" ".profile" ".oh-my-zsh/" ".nvm/" ".npmrc" ".npm/" ".node-gyp/" ".mongorc.js" ".MacOSX/" ".local/" ".lldb/" ".lesshst" ".IntelliJIdea14/" ".iDocSetHelper" ".idlerc/" ".gradle/" ".gitconfig" ".Genymobile/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.keyfreq" ".emacs.d/" ".DS_Store" ".dropbox/" ".config/" ".codebox/" ".cocoapods/" ".CFUserTextEncoding" ".boot2docker/" ".bluefish/" ".bi_li3" ".bashrc" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".backups/" ".android/" "../" "./")
+ ("/Users/huifengshuma/Documents/My-wiki-baby/source/_posts/" (21826 26066 0 0) "Workflow.md" "WatchKit.md~" "WatchKit.md" "Vim.md~" "Vim.md" "UIKit.md" "Thinking.md~" "Thinking.md" "Thinking-in-languages.md" "Think-after-reading.md" "The-entrepreneurial-practice.md" "Task.md~" "Task.md" "Reading-list.md" "python.md" "python-twisted.md" "Problem.md" "My-thinking-model.md" "Movie-Weekly.md" "LT.md" "Linux.md~" "Linux.md" "iOS-developing-skill.md" "Goat.md" "Emacs.md~" "Emacs.md" "Elisp.md~" "Elisp.md" "Design-Pattern.md" "Core-Animation.md" "Coding-Standards.md" "bookmarks.md~" "bookmarks.md" "Application-architecture.md" ".DS_Store" "#Els#" "#bookmarks.md#" "../" "./")
 
- ("/Users/huifengshuma/Documents/My-wiki-baby/source/_posts/" (21826 5063 0 0) "Workflow.md" "WatchKit.md~" "WatchKit.md" "Vim.md~" "Vim.md" "UIKit.md" "Thinking.md~" "Thinking.md" "Thinking-in-languages.md" "Think-after-reading.md" "The-entrepreneurial-practice.md" "Task.md~" "Task.md" "Reading-list.md" "python.md" "python-twisted.md" "Problem.md" "My-thinking-model.md" "Movie-Weekly.md" "LT.md" "Linux.md~" "Linux.md" "iOS-developing-skill.md" "Goat.md" "Emacs.md~" "Emacs.md" "Elisp.md~" "Elisp.md" "Design-Pattern.md" "Core-Animation.md" "Coding-Standards.md" "bookmarks.md~" "bookmarks.md" "Application-architecture.md" ".DS_Store" ".#Emacs.md" "#Els#" "#bookmarks.md#" "../" "./")
+ ("/Users/huifengshuma/.emacs.d/" (21826 9316 0 0) "snippets/" "site-lisp/" "recentf" "misc/" "lisp/" "init.el" "ido.last" "history" "eshell/" "elpa/" "auto-save-list/" ".smex-items" ".session" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
 
- ("/Users/huifengshuma/Documents/org-doc/" (21826 2875 0 0) "高等数学.org" "离散数学.org" "xyguo/" "ToDo.org~" "ToDo.org_archive" "ToDo.org" "test.c" "redguardtoo/" "README.md~" "README.md" "Purcell/" "LaTex.org~" "LaTex.org" ".git/" ".emacs" ".DS_Store" ".#test.c" "../" "./")
+ ("/Users/huifengshuma/.w3m/" (21826 9345 0 0) "bookmark.html" ".sessions" "../" "./")
+
+ ("/Users/" (21736 23920 0 0) "Shared/" "huifengshuma/" "guide/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/huifengshuma/" (21826 8264 0 0) "WebstormProjects/" "VirtualBox VMs/" "Vagrantfile/" "solarized/" "PycharmProjects/" "Public/" "Project/" "Pictures/" "octopress/" "nodejs/" "node_modules/" "MyPythonModel/" "Music/" "Movies/" "Library/" "JavaProject/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" "ACM程序/" ".zshrc~" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-huifengshuma的MacBook Pro-5.0.5" ".w3m/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".ShadowsocksX/" ".rvm/" ".rnd" ".rest-client/" ".qrsbox/" ".python_history" ".python-eggs/" ".profile" ".oh-my-zsh/" ".nvm/" ".npmrc" ".npm/" ".node-gyp/" ".mongorc.js" ".MacOSX/" ".local/" ".lldb/" ".lesshst" ".IntelliJIdea14/" ".iDocSetHelper" ".idlerc/" ".gradle/" ".gitconfig" ".Genymobile/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.keyfreq" ".emacs.d/" ".DS_Store" ".dropbox/" ".config/" ".codebox/" ".cocoapods/" ".CFUserTextEncoding" ".boot2docker/" ".bluefish/" ".bi_li3" ".bashrc" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".backups/" ".android/" "../" "./")
 
  ("/Users/huifengshuma/Documents/" (21825 30269 0 0) "维护的开发资源/" "线下交流/" "模拟试卷/" "服务外包大赛资料/" "思维导图/" "头像素材/" "各种编程语言的特点.doc" "作业/" "书籍的源码/" "workspace/" "wiki-images/" "RECYCLER/" "RDC Connections/" "qiniu/" "org-doc/" "My-wiki-baby/" "My-blog/" "Microsoft User Data/" "learning-gnu-emacs-3rd-edition-english.chm" "Ghost-On-Coding-Paas/" "Ghost-0.5.9-zh-full/" "Geek-images/" "desktop.ini" "Clarify Documents/" "App图片素材/" "ACM/" ":tmp/" ".mkv" ".localized" ".DS_Store" "../" "./")
 

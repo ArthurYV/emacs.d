@@ -25,8 +25,8 @@
     ad-do-it))
 (ad-activate 'term-sentinel)
 
-;; always use bash
-(defvar my-term-shell "/bin/bash")
+;; always use zsh
+(defvar my-term-shell "/bin/zsh")
 (defadvice ansi-term (before force-bash)
   (interactive (list my-term-shell)))
 (ad-activate 'ansi-term)
@@ -54,7 +54,8 @@
 	    (multi-term)
 	  (switch-to-buffer b))))
 
-(define-key global-map (kbd "C-x e") 'multi-term)
+;(define-key global-map (kbd "C-x e") 'multi-term)
+  (define-key global-map (kbd "C-^") 'multi-term-dedicated-open)
 
 (defun term-send-kill-whole-line ()
   "Kill whole line in term mode."
@@ -67,7 +68,7 @@
   (interactive)
   (term-send-raw-string "\C-k"))
 
-(setq multi-term-program "/bin/bash")
+(setq multi-term-program "/bin/zsh")
 (setq term-unbind-key-list '("C-x" "<ESC>"))
 (setq term-bind-key-alist
       '(("C-c" . term-interrupt-subjob)
