@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eww
  list-packages
  eshell
  multi-term-dedicated-open
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
@@ -19,4 +19,5 @@
  (yas-minor-mode . 2)
  (yas-expand . 1)
  (eshell . 3)
+ (eww . 3)
 )
