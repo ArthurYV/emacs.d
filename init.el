@@ -1,6 +1,7 @@
 ;; -*- coding: utf-8 -*-
 (setq emacs-load-start-time (current-time))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
+;(add-to-list 'load-path (expand-file-name "/Library/Python/2.7/site-packages"))
 
 ;;----------------------------------------------------------------------------
 ;; Which functionality to enable (use t or nil for true and false)
@@ -37,6 +38,7 @@
 (require 'init-compat)
 (require 'init-utils)
 (require 'init-site-lisp) ;; Must come before elpa, as it may provide package.el
+;; (require 'webkit)
 
 ;; win32 auto configuration, assuming that cygwin is installed at "c:/cygwin"
 ;; (condition-case nil
